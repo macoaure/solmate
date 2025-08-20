@@ -1,0 +1,37 @@
+{
+  "editor.folding": true,
+  "editor.foldingHighlight": true,
+  "editor.foldingStrategy": "indentation",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".env": ".env.*,.git*,*.ini, *.sample,.htaccess,.editorconfig,env-example",
+    ".gitignore": ".env.*,.git*,*.ini, *.sample,.htaccess,.editorconfig,env-example",
+    "README.md": "*.md, COPYING.txt, LICENSE*",
+    "composer.json": "composer.*,auth.json*,.php-cs*,captainhook.*",
+    "env-example": ".env.*,.git*,*.ini, *.sample,.htaccess,.editorconfig",
+    "package.json": "package*.json, Gruntfile.js*",
+    "phpcs.*": "phpcs.*,phpunit.*,phpstan.*"
+  },
+  "files.associations": {
+    "*.env": "dotenv",
+    ".env*": "dotenv",
+    ".env.*": "dotenv"
+  },
+  "workbench.tree.indent": 25,
+  "workbench.tree.renderIndentGuides": "always",
+  "files.exclude": {
+    "**/dev": true,
+    "**/generated": true,
+    "**/lib": true,
+    "**/setup": true,
+    "**/phpserver": true,
+    "**/var/log/": false,
+    "**/pub": true,
+    "**/bin": true
+  },
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".vscode/commit/.copilot-commit-message-instructions.md"
+    }
+  ],
+}
